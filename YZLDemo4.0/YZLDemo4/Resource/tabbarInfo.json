@@ -1,0 +1,26 @@
+[
+    {
+        "clsName" : "YZLHomeViewController",
+        "title" : "首页",
+        "imageName" : "首页_未选首页",
+        "selectedImageName" : "首页_首页"
+    },
+    {
+        "clsName" : "YZLStudyViewController",
+        "title" : "学习",
+        "imageName" : "首页_学习",
+        "selectedImageName" : "首页_学习_已选"
+    },
+    {
+        "clsName" : "YZLFindViewController",
+        "title" : "发现",
+        "imageName" : "首页_发现",
+        "selectedImageName" : "首页_发现已选"
+    },
+    {
+    "clsName" : "YZLProfileViewController",
+    "title" : "我的",
+    "imageName" : "首页_我的",
+    "selectedImageName" : "首页_我的_已选"
+    }
+]
