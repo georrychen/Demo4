@@ -20,8 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = loadRootViewController()
         window?.makeKeyAndVisible()
        
-        application.statusBarStyle = .lightContent
-
         configureTabbarJsonData()
         
         return true

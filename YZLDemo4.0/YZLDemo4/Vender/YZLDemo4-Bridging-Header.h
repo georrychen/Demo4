@@ -3,3 +3,4 @@
 //
 
 #import "NNAnimation.h"
+#import "UIImage+ChXResizable.h"

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YZLHorizontalCollectionCell" customModule="YZLDemo4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="75"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_top_ski" translatesAutoresizingMaskIntoConstraints="NO" id="DkJ-Jf-g8H">
+                        <rect key="frame" x="5.5" y="0.0" width="49" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="49" id="s3X-5n-mRw"/>
+                            <constraint firstAttribute="height" constant="49" id="uUJ-kx-2Is"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="滑雪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYD-vc-mTP">
+                        <rect key="frame" x="17.5" y="59" width="25" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="DkJ-Jf-g8H" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5wK-tf-SkS"/>
+                <constraint firstItem="DkJ-Jf-g8H" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="WvA-BW-eC5"/>
+                <constraint firstItem="DYD-vc-mTP" firstAttribute="top" secondItem="DkJ-Jf-g8H" secondAttribute="bottom" constant="10" id="mVg-ql-wtG"/>
+                <constraint firstItem="DYD-vc-mTP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="wv5-bb-BKx"/>
+            </constraints>
+            <size key="customSize" width="120" height="74"/>
+            <connections>
+                <outlet property="imageView" destination="DkJ-Jf-g8H" id="3lA-Zc-rBP"/>
+                <outlet property="title" destination="DYD-vc-mTP" id="O5d-RM-iRB"/>
+            </connections>
+            <point key="canvasLocation" x="-91.200000000000003" y="54.422788605697157"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_top_ski" width="49" height="49"/>
+    </resources>
+</document>

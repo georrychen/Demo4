@@ -29,8 +29,12 @@ func kRGBColor_hex(h: Int) -> UIColor {
 
 /// 导航栏背景色
 let kNavbarBgColor: UIColor = kRGBColor(r: 62, g: 131, b: 229)
+/// 视图默认背景色
+let kBgColor: UIColor = kRGBColor(r: 245, g: 247, b: 249)
+
 
 let kScreenWidth = UIScreen.main.bounds.width
 let kScreenHeight = UIScreen.main.bounds.height
-
+let kWindow = (UIApplication.shared.keyWindow)!
+let kNavigationBarHeight = UIApplication.shared.statusBarFrame.height + 44
 

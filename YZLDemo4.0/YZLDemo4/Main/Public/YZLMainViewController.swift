@@ -168,13 +168,6 @@ extension YZLMainViewController {
     }
     
     func addAnimationWithIndex(index: NSInteger) {
-        //        NSMutableArray *tabbarbuttonArray = [NSMutableArray array];
-        //        for (UIView *tabBarButton in self.tabBar.subviews) {
-        //            if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
-        //                [tabbarbuttonArray addObject:tabBarButton];
-        //            }
-        //        }
-        //        [NNAnimation addAnimationWithCALayer:[tabbarbuttonArray[index] layer] interval:0.1 repeatCount:2 fromValue:0.95 toValue:1.05];
         var tabbarbuttonArray = [UIView]()
         for tabBarButton: UIView in tabBar.subviews {
             if tabBarButton.isKind(of: NSClassFromString("UITabBarButton")!) {
@@ -185,34 +178,3 @@ extension YZLMainViewController {
         
     }
 }
-
-
-//- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
-//
-//    NSInteger integet = [self.tabBar.items indexOfObject:viewController.tabBarItem];
-//    [self addAnimationWithIndex:integet];
-//    if ([viewController isEqual:tabBarController.selectedViewController]) {
-//        if ([tabBarController.selectedViewController isEqual:[tabBarController.viewControllers firstObject]]) {
-//            //            [[NSNotificationCenter defaultCenter] postNotificationName:NNHomeViewBackToTop object:nil];
-//            return NO;
-//        }
-//        if ([tabBarController.selectedViewController isEqual:tabBarController.viewControllers[1]]) {
-//            //            [[NSNotificationCenter defaultCenter] postNotificationName:NNLearnViewBackToTop object:nil];
-//            return NO;
-//        }
-//    }
-//    return YES;
-//    }
-//
-//    /**
-//     点击 tabbarItem 缩放动画
-//     */
-//    - (void)addAnimationWithIndex:(NSInteger)index {
-//        NSMutableArray *tabbarbuttonArray = [NSMutableArray array];
-//        for (UIView *tabBarButton in self.tabBar.subviews) {
-//            if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
-//                [tabbarbuttonArray addObject:tabBarButton];
-//            }
-//        }
-//        [NNAnimation addAnimationWithCALayer:[tabbarbuttonArray[index] layer] interval:0.1 repeatCount:2 fromValue:0.95 toValue:1.05];
-//}

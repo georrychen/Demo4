@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YZLHomeHeadSearchView" customModule="YZLDemo4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F7S-jG-Cqb" userLabel="backgroundView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                    <color key="backgroundColor" red="0.24313725490196078" green="0.51372549019607838" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR6-j0-6Tg" userLabel="mail">
+                    <rect key="frame" x="340" y="22" width="20" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="0ap-fa-vFx"/>
+                        <constraint firstAttribute="height" constant="22" id="AiT-Em-z3K"/>
+                    </constraints>
+                    <state key="normal" image="home_mail"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQX-iI-oMq" userLabel="searchView">
+                    <rect key="frame" x="45" y="18" width="285" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvW-2t-1cj">
+                            <rect key="frame" x="10" y="8" width="265" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="请输入您想要检索的内容" image="home_search_icon">
+                                <color key="titleColor" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickedSearchButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="QQh-oc-YFn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="MvW-2t-1cj" firstAttribute="centerX" secondItem="pQX-iI-oMq" secondAttribute="centerX" id="KWP-zr-6YN"/>
+                        <constraint firstAttribute="height" constant="30" id="KoI-XC-UFZ"/>
+                        <constraint firstItem="MvW-2t-1cj" firstAttribute="leading" secondItem="pQX-iI-oMq" secondAttribute="leading" constant="10" id="Nyc-wZ-mOn"/>
+                        <constraint firstAttribute="trailing" secondItem="MvW-2t-1cj" secondAttribute="trailing" constant="10" id="Or0-sa-fpr"/>
+                        <constraint firstItem="MvW-2t-1cj" firstAttribute="centerY" secondItem="pQX-iI-oMq" secondAttribute="centerY" id="V8k-MO-DvA"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0P-gf-Lus" userLabel="calendar">
+                    <rect key="frame" x="15" y="22" width="20" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="2AS-tA-pH1"/>
+                        <constraint firstAttribute="width" constant="20" id="lgl-kC-IEn"/>
+                    </constraints>
+                    <state key="normal" image="home_calendar"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="F0P-gf-Lus" firstAttribute="centerY" secondItem="pQX-iI-oMq" secondAttribute="centerY" id="5k5-XY-2Y0"/>
+                <constraint firstItem="pQX-iI-oMq" firstAttribute="leading" secondItem="F0P-gf-Lus" secondAttribute="trailing" constant="10" id="7Bd-9G-zR8"/>
+                <constraint firstItem="F7S-jG-Cqb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Izl-vo-0Dr"/>
+                <constraint firstAttribute="trailing" secondItem="CR6-j0-6Tg" secondAttribute="trailing" constant="15" id="Qds-Ht-4bn"/>
+                <constraint firstAttribute="bottom" secondItem="F7S-jG-Cqb" secondAttribute="bottom" id="Qmu-9I-Mo6"/>
+                <constraint firstItem="CR6-j0-6Tg" firstAttribute="leading" secondItem="pQX-iI-oMq" secondAttribute="trailing" constant="10" id="XRt-jF-67f"/>
+                <constraint firstItem="F0P-gf-Lus" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="b1M-Gd-z9L"/>
+                <constraint firstAttribute="trailing" secondItem="F7S-jG-Cqb" secondAttribute="trailing" id="bUN-ng-6Xt"/>
+                <constraint firstItem="CR6-j0-6Tg" firstAttribute="centerY" secondItem="pQX-iI-oMq" secondAttribute="centerY" id="ceq-Ro-Z58"/>
+                <constraint firstItem="F7S-jG-Cqb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="phL-n4-ig8"/>
+                <constraint firstAttribute="bottom" secondItem="pQX-iI-oMq" secondAttribute="bottom" constant="10" id="tt0-6E-fMd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="F7S-jG-Cqb" id="I99-dn-T9i"/>
+                <outlet property="searchView" destination="pQX-iI-oMq" id="ZNu-Af-fRF"/>
+            </connections>
+            <point key="canvasLocation" x="-246" y="-472"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_calendar" width="20" height="20"/>
+        <image name="home_mail" width="20" height="20"/>
+        <image name="home_search_icon" width="11.5" height="11.5"/>
+    </resources>
+</document>

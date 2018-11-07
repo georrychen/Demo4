@@ -24,10 +24,31 @@
 		954132BE2190107500C65496 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954132BD2190107500C65496 /* Common.swift */; };
 		954132C0219011FD00C65496 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954132BF219011FD00C65496 /* Bundle+Extension.swift */; };
 		954132C22190161300C65496 /* tabbarInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 954132C12190161300C65496 /* tabbarInfo.json */; };
+		9541AF8B219283780065298C /* YZLSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF8A219283780065298C /* YZLSearchView.swift */; };
+		9541AF8D219283890065298C /* YZLSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9541AF8C219283890065298C /* YZLSearchView.xib */; };
+		9541AF8F2192B8DA0065298C /* YZLHomeTopScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF8E2192B8DA0065298C /* YZLHomeTopScrollView.swift */; };
+		9541AF912192C4B00065298C /* YZLHomeTopNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF902192C4B00065298C /* YZLHomeTopNoticeView.swift */; };
+		9541AF932192C7700065298C /* YZLHomeTopNoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9541AF922192C7700065298C /* YZLHomeTopNoticeView.xib */; };
+		9541AF972192C97C0065298C /* UIImage+ChXResizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF952192C97C0065298C /* UIImage+ChXResizable.m */; };
+		9541AF9A2192D5250065298C /* YZLHorizontalButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF992192D5250065298C /* YZLHorizontalButtonsView.swift */; };
+		9541AF9C2192D5AA0065298C /* YZLHorizontalButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF9B2192D5AA0065298C /* YZLHorizontalButtonViewModel.swift */; };
+		9541AF9F2192D76E0065298C /* YZLHorizontalCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF9D2192D76E0065298C /* YZLHorizontalCollectionCell.swift */; };
+		9541AFA02192D76E0065298C /* YZLHorizontalCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9541AF9E2192D76E0065298C /* YZLHorizontalCollectionCell.xib */; };
+		9541AFA22192ECA40065298C /* horizontalButtonDatas.json in Resources */ = {isa = PBXBuildFile; fileRef = 9541AFA12192ECA40065298C /* horizontalButtonDatas.json */; };
 		957353B52190217400A085C8 /* YZLCustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957353B42190217400A085C8 /* YZLCustomNavBarView.swift */; };
 		957353BD219026B300A085C8 /* NNAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 957353BC219026B300A085C8 /* NNAnimation.m */; };
 		957353BF21902F7800A085C8 /* YZLNotificationCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957353BE21902F7800A085C8 /* YZLNotificationCommon.swift */; };
 		957353C12190345000A085C8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957353C02190345000A085C8 /* UIColor+Extension.swift */; };
+		95E6333021918ABE0024046D /* YZLHomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E6332F21918ABE0024046D /* YZLHomeCollectionView.swift */; };
+		95E633332191913C0024046D /* YZLHotCourseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E633312191913C0024046D /* YZLHotCourseCollectionCell.swift */; };
+		95E633342191913C0024046D /* YZLHotCourseCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E633322191913C0024046D /* YZLHotCourseCollectionCell.xib */; };
+		95E6333B2191938F0024046D /* YZLMathCourseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E633392191938F0024046D /* YZLMathCourseCollectionCell.swift */; };
+		95E6333C2191938F0024046D /* YZLMathCourseCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E6333A2191938F0024046D /* YZLMathCourseCollectionCell.xib */; };
+		95E633402191945B0024046D /* YZLHotLiveCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E6333E2191945B0024046D /* YZLHotLiveCollectionCell.swift */; };
+		95E633412191945B0024046D /* YZLHotLiveCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E6333F2191945B0024046D /* YZLHotLiveCollectionCell.xib */; };
+		95E6334521919E500024046D /* YZLHomeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E6334421919E500024046D /* YZLHomeHeadView.swift */; };
+		95E6334821919F0C0024046D /* YZLHomeHeadSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E6334721919F0C0024046D /* YZLHomeHeadSearchView.swift */; };
+		95E6334A2191A1E50024046D /* YZLHomeHeadSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E633492191A1E50024046D /* YZLHomeHeadSearchView.xib */; };
 		E8E450259692D383DA4064BE /* Pods_YZLDemo4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5FE582BB714C2E09FC0A54 /* Pods_YZLDemo4UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,12 +98,34 @@
 		954132BD2190107500C65496 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		954132BF219011FD00C65496 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		954132C12190161300C65496 /* tabbarInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tabbarInfo.json; sourceTree = "<group>"; };
+		9541AF8A219283780065298C /* YZLSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLSearchView.swift; sourceTree = "<group>"; };
+		9541AF8C219283890065298C /* YZLSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLSearchView.xib; sourceTree = "<group>"; };
+		9541AF8E2192B8DA0065298C /* YZLHomeTopScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeTopScrollView.swift; sourceTree = "<group>"; };
+		9541AF902192C4B00065298C /* YZLHomeTopNoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeTopNoticeView.swift; sourceTree = "<group>"; };
+		9541AF922192C7700065298C /* YZLHomeTopNoticeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHomeTopNoticeView.xib; sourceTree = "<group>"; };
+		9541AF952192C97C0065298C /* UIImage+ChXResizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChXResizable.m"; sourceTree = "<group>"; };
+		9541AF962192C97C0065298C /* UIImage+ChXResizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChXResizable.h"; sourceTree = "<group>"; };
+		9541AF992192D5250065298C /* YZLHorizontalButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHorizontalButtonsView.swift; sourceTree = "<group>"; };
+		9541AF9B2192D5AA0065298C /* YZLHorizontalButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHorizontalButtonViewModel.swift; sourceTree = "<group>"; };
+		9541AF9D2192D76E0065298C /* YZLHorizontalCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHorizontalCollectionCell.swift; sourceTree = "<group>"; };
+		9541AF9E2192D76E0065298C /* YZLHorizontalCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHorizontalCollectionCell.xib; sourceTree = "<group>"; };
+		9541AFA12192ECA40065298C /* horizontalButtonDatas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = horizontalButtonDatas.json; sourceTree = "<group>"; };
 		957353B42190217400A085C8 /* YZLCustomNavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZLCustomNavBarView.swift; sourceTree = "<group>"; };
 		957353B62190263500A085C8 /* YZLDemo4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZLDemo4-Bridging-Header.h"; sourceTree = "<group>"; };
 		957353BB219026B300A085C8 /* NNAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAnimation.h; sourceTree = "<group>"; };
 		957353BC219026B300A085C8 /* NNAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAnimation.m; sourceTree = "<group>"; };
 		957353BE21902F7800A085C8 /* YZLNotificationCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLNotificationCommon.swift; sourceTree = "<group>"; };
 		957353C02190345000A085C8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		95E6332F21918ABE0024046D /* YZLHomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeCollectionView.swift; sourceTree = "<group>"; };
+		95E633312191913C0024046D /* YZLHotCourseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHotCourseCollectionCell.swift; sourceTree = "<group>"; };
+		95E633322191913C0024046D /* YZLHotCourseCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHotCourseCollectionCell.xib; sourceTree = "<group>"; };
+		95E633392191938F0024046D /* YZLMathCourseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLMathCourseCollectionCell.swift; sourceTree = "<group>"; };
+		95E6333A2191938F0024046D /* YZLMathCourseCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLMathCourseCollectionCell.xib; sourceTree = "<group>"; };
+		95E6333E2191945B0024046D /* YZLHotLiveCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHotLiveCollectionCell.swift; sourceTree = "<group>"; };
+		95E6333F2191945B0024046D /* YZLHotLiveCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHotLiveCollectionCell.xib; sourceTree = "<group>"; };
+		95E6334421919E500024046D /* YZLHomeHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeHeadView.swift; sourceTree = "<group>"; };
+		95E6334721919F0C0024046D /* YZLHomeHeadSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeHeadSearchView.swift; sourceTree = "<group>"; };
+		95E633492191A1E50024046D /* YZLHomeHeadSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHomeHeadSearchView.xib; sourceTree = "<group>"; };
 		9AEF309B7EF566E3AEF3AD6C /* Pods-YZLDemo4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZLDemo4Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZLDemo4Tests/Pods-YZLDemo4Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDC5C0248AA9EE7102E7FC1B /* Pods-YZLDemo4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZLDemo4UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZLDemo4UITests/Pods-YZLDemo4UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +225,8 @@
 		9541329D218FED6900C65496 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				9541AF962192C97C0065298C /* UIImage+ChXResizable.h */,
+				9541AF952192C97C0065298C /* UIImage+ChXResizable.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -253,7 +298,9 @@
 		954132A5218FED6A00C65496 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				954132B0218FEE4900C65496 /* YZLHomeViewController.swift */,
+				95E6332E21918A590024046D /* ViewModel */,
+				95E6332D21918A4F0024046D /* View */,
+				95E6332C21918A480024046D /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -309,6 +356,18 @@
 			path = Vender;
 			sourceTree = "<group>";
 		};
+		9541AF982192D4AE0065298C /* HorizontalButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				9541AF992192D5250065298C /* YZLHorizontalButtonsView.swift */,
+				9541AF9D2192D76E0065298C /* YZLHorizontalCollectionCell.swift */,
+				9541AF9E2192D76E0065298C /* YZLHorizontalCollectionCell.xib */,
+				9541AF9B2192D5AA0065298C /* YZLHorizontalButtonViewModel.swift */,
+				9541AFA12192ECA40065298C /* horizontalButtonDatas.json */,
+			);
+			path = HorizontalButtonsView;
+			sourceTree = "<group>";
+		};
 		957353BA219026B300A085C8 /* NNAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +375,76 @@
 				957353BC219026B300A085C8 /* NNAnimation.m */,
 			);
 			path = NNAnimation;
+			sourceTree = "<group>";
+		};
+		95E6332C21918A480024046D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95E6332D21918A4F0024046D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95E6334621919EE30024046D /* SearchView */,
+				95E6334321919E130024046D /* HeaderView */,
+				95E6334221919DAB0024046D /* CollectionView */,
+				95E6333D219193A50024046D /* Cell */,
+				954132B0218FEE4900C65496 /* YZLHomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95E6332E21918A590024046D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		95E6333D219193A50024046D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				95E633312191913C0024046D /* YZLHotCourseCollectionCell.swift */,
+				95E633322191913C0024046D /* YZLHotCourseCollectionCell.xib */,
+				95E633392191938F0024046D /* YZLMathCourseCollectionCell.swift */,
+				95E6333A2191938F0024046D /* YZLMathCourseCollectionCell.xib */,
+				95E6333E2191945B0024046D /* YZLHotLiveCollectionCell.swift */,
+				95E6333F2191945B0024046D /* YZLHotLiveCollectionCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		95E6334221919DAB0024046D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				95E6332F21918ABE0024046D /* YZLHomeCollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		95E6334321919E130024046D /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				9541AF982192D4AE0065298C /* HorizontalButtonsView */,
+				95E6334421919E500024046D /* YZLHomeHeadView.swift */,
+				9541AF8E2192B8DA0065298C /* YZLHomeTopScrollView.swift */,
+				9541AF902192C4B00065298C /* YZLHomeTopNoticeView.swift */,
+				9541AF922192C7700065298C /* YZLHomeTopNoticeView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		95E6334621919EE30024046D /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				95E6334721919F0C0024046D /* YZLHomeHeadSearchView.swift */,
+				95E633492191A1E50024046D /* YZLHomeHeadSearchView.xib */,
+				9541AF8A219283780065298C /* YZLSearchView.swift */,
+				9541AF8C219283890065298C /* YZLSearchView.xib */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 		B9121C8B630A27AF698193A0 /* Pods */ = {
@@ -455,6 +584,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				954132C22190161300C65496 /* tabbarInfo.json in Resources */,
+				9541AF932192C7700065298C /* YZLHomeTopNoticeView.xib in Resources */,
+				9541AF8D219283890065298C /* YZLSearchView.xib in Resources */,
+				9541AFA22192ECA40065298C /* horizontalButtonDatas.json in Resources */,
+				95E633342191913C0024046D /* YZLHotCourseCollectionCell.xib in Resources */,
+				95E6333C2191938F0024046D /* YZLMathCourseCollectionCell.xib in Resources */,
+				95E6334A2191A1E50024046D /* YZLHomeHeadSearchView.xib in Resources */,
+				95E633412191945B0024046D /* YZLHotLiveCollectionCell.xib in Resources */,
+				9541AFA02192D76E0065298C /* YZLHorizontalCollectionCell.xib in Resources */,
 				95413276218FE3DB00C65496 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,18 +694,31 @@
 			files = (
 				954132B1218FEE4900C65496 /* YZLHomeViewController.swift in Sources */,
 				957353BF21902F7800A085C8 /* YZLNotificationCommon.swift in Sources */,
+				9541AF912192C4B00065298C /* YZLHomeTopNoticeView.swift in Sources */,
 				954132BB218FEF2300C65496 /* YZLWelcomeController.swift in Sources */,
+				9541AF9A2192D5250065298C /* YZLHorizontalButtonsView.swift in Sources */,
+				9541AF9C2192D5AA0065298C /* YZLHorizontalButtonViewModel.swift in Sources */,
 				954132AD218FEDC800C65496 /* YZLMainViewController.swift in Sources */,
 				954132C0219011FD00C65496 /* Bundle+Extension.swift in Sources */,
+				95E6333021918ABE0024046D /* YZLHomeCollectionView.swift in Sources */,
 				957353BD219026B300A085C8 /* NNAnimation.m in Sources */,
+				9541AF8F2192B8DA0065298C /* YZLHomeTopScrollView.swift in Sources */,
 				957353B52190217400A085C8 /* YZLCustomNavBarView.swift in Sources */,
+				95E633402191945B0024046D /* YZLHotLiveCollectionCell.swift in Sources */,
 				954132B5218FEE6F00C65496 /* YZLProfileViewController.swift in Sources */,
+				95E6333B2191938F0024046D /* YZLMathCourseCollectionCell.swift in Sources */,
+				9541AF9F2192D76E0065298C /* YZLHorizontalCollectionCell.swift in Sources */,
+				9541AF972192C97C0065298C /* UIImage+ChXResizable.m in Sources */,
 				9541326F218FE3D800C65496 /* AppDelegate.swift in Sources */,
 				957353C12190345000A085C8 /* UIColor+Extension.swift in Sources */,
+				95E633332191913C0024046D /* YZLHotCourseCollectionCell.swift in Sources */,
 				954132B7218FEE7C00C65496 /* YZLFindViewController.swift in Sources */,
 				954132B3218FEE6100C65496 /* YZLStudyViewController.swift in Sources */,
+				9541AF8B219283780065298C /* YZLSearchView.swift in Sources */,
 				954132B9218FEEC900C65496 /* YZLNavigationController.swift in Sources */,
+				95E6334521919E500024046D /* YZLHomeHeadView.swift in Sources */,
 				954132BE2190107500C65496 /* Common.swift in Sources */,
+				95E6334821919F0C0024046D /* YZLHomeHeadSearchView.swift in Sources */,
 				954132AF218FEDF600C65496 /* YZLBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
