@@ -38,7 +38,7 @@ class YZLHomeHeadView: UIView, YZLHorizontalButtonsViewDelegate {
         addSubview(topNoticeView)
         
         // 3. 添加横向滚动按钮视图
-        let collectionView = YZLHorizontalButtonsView.init(frame: CGRect(x: 0, y: 250, width: kScreenWidth, height: 250), collectionViewLayout: UICollectionViewFlowLayout())
+        let collectionView = YZLHorizontalButtonsView.init(frame: CGRect(x: 0, y: 250, width: kScreenWidth, height: 180), collectionViewLayout: UICollectionViewFlowLayout())
         collectionView.viewDelegate = self
         addSubview(collectionView)
         
@@ -65,8 +65,8 @@ class YZLHomeHeadView: UIView, YZLHorizontalButtonsViewDelegate {
         
         // 刷新数据
         collectionView.datas = arrayM
+        
     }
-    
     
     func YZLHorizontalButtonsViewDidSelected(atindex index: Int, model: YZLHorizontalButtonViewModel) {
         

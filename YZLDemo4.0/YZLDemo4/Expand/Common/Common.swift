@@ -37,4 +37,10 @@ let kScreenWidth = UIScreen.main.bounds.width
 let kScreenHeight = UIScreen.main.bounds.height
 let kWindow = (UIApplication.shared.keyWindow)!
 let kNavigationBarHeight = UIApplication.shared.statusBarFrame.height + 44
+let kTabbarHeight: CGFloat = (UIApplication.shared.statusBarFrame.height > 20) ? 83 : 49
 
+
+/// 首页列表分区头视图高度
+let kHomeCollectionSectionHeaderHeight: CGFloat = 50
+/// 首页头部高度
+let kHomeTopViewHeight: CGFloat = 440

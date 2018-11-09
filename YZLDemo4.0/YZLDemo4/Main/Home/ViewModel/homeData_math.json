@@ -1,0 +1,26 @@
+[
+    {
+        "title": "基础英语",
+        "picname": "",
+        "price": "8",
+        "studentCount": "12"
+    },
+    {
+        "title": "英语写作",
+        "picname": "",
+        "price": "42",
+        "studentCount": "250"
+    },
+    {
+        "title": "翻译理论与实践",
+        "picname": "",
+        "price": "589",
+        "studentCount": "10"
+    },
+    {
+        "title": "主要英语国家国情",
+        "picname": "",
+        "price": "95",
+        "studentCount": "80"
+    }
+]

@@ -12,14 +12,101 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YZLHotLiveCollectionCell" customModule="YZLDemo4" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="340" height="143"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="340" height="143"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_hotlive_cell_bg" translatesAutoresizingMaskIntoConstraints="NO" id="nR0-Q8-Dhc">
+                        <rect key="frame" x="7.5" y="31" width="360" height="149"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hNv-Em-6L9">
+                        <rect key="frame" x="160" y="8" width="55" height="55"/>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.51372549020000002" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="VGN-vU-uNw"/>
+                            <constraint firstAttribute="height" constant="55" id="pMl-4n-G1T"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klj-gr-OBA">
+                        <rect key="frame" x="156.5" y="48" width="62" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="15:00" backgroundImage="home_cellbutton_bg_black"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_hotlive_indicator" translatesAutoresizingMaskIntoConstraints="NO" id="rsu-sE-wNR">
+                        <rect key="frame" x="180" y="28.5" width="15" height="14"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="初中英语第三课第二讲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nh6-gO-b59">
+                        <rect key="frame" x="32" y="87" width="311" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvX-ho-9KX" userLabel="line">
+                        <rect key="frame" x="32" y="119" width="311" height="1"/>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.92941176470588238" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="myq-lJ-a32"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="153人预约" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uns-Ii-DoG">
+                        <rect key="frame" x="32" y="135" width="62" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekD-dz-EsP">
+                        <rect key="frame" x="268" y="130" width="79" height="38"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal" title="观看直播" backgroundImage="home_cellbutton_bg_orgrange"/>
+                        <connections>
+                            <action selector="watchLiveButtonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Uey-Zc-hVx"/>
+                        </connections>
+                    </button>
+                </subviews>
             </view>
-            <color key="backgroundColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="137.59999999999999" y="153.82308845577214"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="rsu-sE-wNR" firstAttribute="centerY" secondItem="hNv-Em-6L9" secondAttribute="centerY" id="0SN-Pr-gca"/>
+                <constraint firstItem="ZvX-ho-9KX" firstAttribute="leading" secondItem="nh6-gO-b59" secondAttribute="leading" id="9w8-G1-SYS"/>
+                <constraint firstItem="Uns-Ii-DoG" firstAttribute="top" secondItem="ZvX-ho-9KX" secondAttribute="bottom" constant="15" id="BQB-AZ-a2d"/>
+                <constraint firstAttribute="trailing" secondItem="nR0-Q8-Dhc" secondAttribute="trailing" constant="7.5" id="C2X-Wb-RIs"/>
+                <constraint firstItem="ZvX-ho-9KX" firstAttribute="trailing" secondItem="nh6-gO-b59" secondAttribute="trailing" id="IAB-DG-xal"/>
+                <constraint firstItem="rsu-sE-wNR" firstAttribute="centerX" secondItem="hNv-Em-6L9" secondAttribute="centerX" id="Jhz-qx-aCW"/>
+                <constraint firstAttribute="bottom" secondItem="ekD-dz-EsP" secondAttribute="bottom" constant="12" id="OSV-gv-uyH"/>
+                <constraint firstItem="nR0-Q8-Dhc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="31" id="Pl4-i6-wVC"/>
+                <constraint firstItem="Klj-gr-OBA" firstAttribute="top" secondItem="hNv-Em-6L9" secondAttribute="bottom" constant="-15" id="TlD-3I-ove"/>
+                <constraint firstAttribute="trailing" secondItem="nh6-gO-b59" secondAttribute="trailing" constant="32" id="VpJ-io-oiF"/>
+                <constraint firstItem="Uns-Ii-DoG" firstAttribute="leading" secondItem="ZvX-ho-9KX" secondAttribute="leading" id="XWS-8C-V4N"/>
+                <constraint firstItem="ZvX-ho-9KX" firstAttribute="top" secondItem="nh6-gO-b59" secondAttribute="bottom" constant="15" id="Xzs-2r-N0Q"/>
+                <constraint firstAttribute="trailing" secondItem="ekD-dz-EsP" secondAttribute="trailing" constant="28" id="aDa-3I-fxX"/>
+                <constraint firstItem="nR0-Q8-Dhc" firstAttribute="top" secondItem="hNv-Em-6L9" secondAttribute="bottom" constant="-32" id="bdV-PV-Yfd"/>
+                <constraint firstItem="nh6-gO-b59" firstAttribute="top" secondItem="Klj-gr-OBA" secondAttribute="bottom" constant="10" id="bo6-YU-FhS"/>
+                <constraint firstItem="nh6-gO-b59" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="32" id="eFZ-8F-PkJ"/>
+                <constraint firstAttribute="bottom" secondItem="nR0-Q8-Dhc" secondAttribute="bottom" id="jak-Kl-ur1"/>
+                <constraint firstItem="nh6-gO-b59" firstAttribute="centerX" secondItem="hNv-Em-6L9" secondAttribute="centerX" id="oeS-dx-HYa"/>
+                <constraint firstItem="nR0-Q8-Dhc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7.5" id="r7D-5y-1G6"/>
+                <constraint firstItem="Klj-gr-OBA" firstAttribute="centerX" secondItem="hNv-Em-6L9" secondAttribute="centerX" id="s67-Kx-oiF"/>
+            </constraints>
+            <size key="customSize" width="400" height="212"/>
+            <connections>
+                <outlet property="bgShadowImageView" destination="nR0-Q8-Dhc" id="XYm-nf-jAS"/>
+                <outlet property="durationLabel" destination="Klj-gr-OBA" id="pbB-Le-lqi"/>
+                <outlet property="logoView" destination="hNv-Em-6L9" id="TrB-DF-dHV"/>
+                <outlet property="orderNumLabel" destination="Uns-Ii-DoG" id="Yzd-OB-k9d"/>
+                <outlet property="titleLabel" destination="nh6-gO-b59" id="pBL-pD-YHh"/>
+            </connections>
+            <point key="canvasLocation" x="114" y="166"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="home_cellbutton_bg_black" width="62" height="29"/>
+        <image name="home_cellbutton_bg_orgrange" width="79.5" height="38"/>
+        <image name="home_hotlive_cell_bg" width="360" height="149"/>
+        <image name="home_hotlive_indicator" width="15.5" height="14.5"/>
+    </resources>
 </document>

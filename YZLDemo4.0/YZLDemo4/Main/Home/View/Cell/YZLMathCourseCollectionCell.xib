@@ -17,9 +17,72 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="178" height="174"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_math_cell_bg" translatesAutoresizingMaskIntoConstraints="NO" id="HaX-z4-cAR">
+                        <rect key="frame" x="0.0" y="0.0" width="178" height="174"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iaw-RE-oni">
+                        <rect key="frame" x="7" y="2" width="164" height="95"/>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.51372549020000002" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="95" id="wpG-2J-QMK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="玩转数据结构" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWl-2F-7Z6">
+                        <rect key="frame" x="17" y="109" width="154" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="585位学员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2H-PK-naK">
+                        <rect key="frame" x="17" y="142" width="55" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥99" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eq1-U5-m14">
+                        <rect key="frame" x="128" y="141.5" width="28" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.97647058823529409" green="0.27058823529411763" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc4-cO-fW2">
+                        <rect key="frame" x="13" y="71" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="录播" backgroundImage="home_math_bg_black"/>
+                    </button>
+                </subviews>
             </view>
-            <color key="backgroundColor" red="0.94519871470000005" green="0.73282145610000005" blue="0.076575814780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-            <point key="canvasLocation" x="112" y="103"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="eq1-U5-m14" firstAttribute="trailing" secondItem="Iaw-RE-oni" secondAttribute="trailing" constant="-15" id="2Dl-DU-Vy1"/>
+                <constraint firstItem="TWl-2F-7Z6" firstAttribute="leading" secondItem="Iaw-RE-oni" secondAttribute="leading" constant="10" id="BeE-0F-rZO"/>
+                <constraint firstItem="Iaw-RE-oni" firstAttribute="trailing" secondItem="HaX-z4-cAR" secondAttribute="trailing" constant="-7" id="CSh-QM-lTO"/>
+                <constraint firstItem="TWl-2F-7Z6" firstAttribute="top" secondItem="Iaw-RE-oni" secondAttribute="bottom" constant="12" id="CWe-m7-x7P"/>
+                <constraint firstItem="eq1-U5-m14" firstAttribute="centerY" secondItem="X2H-PK-naK" secondAttribute="centerY" id="FdR-IF-x7K"/>
+                <constraint firstItem="X2H-PK-naK" firstAttribute="leading" secondItem="TWl-2F-7Z6" secondAttribute="leading" id="HGH-hJ-z7Y"/>
+                <constraint firstItem="HaX-z4-cAR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MQv-m5-z2k"/>
+                <constraint firstItem="X2H-PK-naK" firstAttribute="top" secondItem="TWl-2F-7Z6" secondAttribute="bottom" constant="13" id="QOs-MN-Tjp"/>
+                <constraint firstItem="Iaw-RE-oni" firstAttribute="top" secondItem="HaX-z4-cAR" secondAttribute="top" constant="2" id="SxH-Hs-Q9l"/>
+                <constraint firstItem="tc4-cO-fW2" firstAttribute="leading" secondItem="Iaw-RE-oni" secondAttribute="leading" constant="6" id="USK-Pi-yrf"/>
+                <constraint firstItem="TWl-2F-7Z6" firstAttribute="trailing" secondItem="Iaw-RE-oni" secondAttribute="trailing" id="kck-la-THE"/>
+                <constraint firstAttribute="trailing" secondItem="HaX-z4-cAR" secondAttribute="trailing" id="sJL-QV-fdn"/>
+                <constraint firstItem="Iaw-RE-oni" firstAttribute="leading" secondItem="HaX-z4-cAR" secondAttribute="leading" constant="7" id="tIp-NK-LQ2"/>
+                <constraint firstAttribute="bottom" secondItem="HaX-z4-cAR" secondAttribute="bottom" id="xLw-zx-IVY"/>
+                <constraint firstItem="HaX-z4-cAR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yGP-oY-wyI"/>
+                <constraint firstItem="tc4-cO-fW2" firstAttribute="bottom" secondItem="Iaw-RE-oni" secondAttribute="bottom" constant="-10" id="zbR-M6-roz"/>
+            </constraints>
+            <connections>
+                <outlet property="logo" destination="Iaw-RE-oni" id="tOb-rY-XmU"/>
+                <outlet property="priceLabel" destination="eq1-U5-m14" id="GOd-DP-r1j"/>
+                <outlet property="studentLabel" destination="X2H-PK-naK" id="Rdi-En-RcV"/>
+                <outlet property="titleLabel" destination="TWl-2F-7Z6" id="SGk-qf-fJz"/>
+            </connections>
+            <point key="canvasLocation" x="112" y="102.54872563718142"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="home_math_bg_black" width="33" height="16"/>
+        <image name="home_math_cell_bg" width="178" height="174"/>
+    </resources>
 </document>

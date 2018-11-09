@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="YZLHomeCollectionHeaderView" customModule="YZLDemo4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热门直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jc-dZ-xPA">
+                    <rect key="frame" x="18" y="24.5" width="73.5" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mV-b2-Hem">
+                    <rect key="frame" x="298" y="24" width="20" height="22"/>
+                    <state key="normal" image="home_more"/>
+                    <connections>
+                        <action selector="clickedMoreButton:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="Hbp-tv-08A"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2mV-b2-Hem" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" constant="5" id="4FF-aj-2fp"/>
+                <constraint firstAttribute="trailing" secondItem="2mV-b2-Hem" secondAttribute="trailing" constant="15" id="Mq1-Oj-ww4"/>
+                <constraint firstItem="2Jc-dZ-xPA" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="18" id="b1f-rl-maE"/>
+                <constraint firstItem="2Jc-dZ-xPA" firstAttribute="centerY" secondItem="2mV-b2-Hem" secondAttribute="centerY" id="bwk-O0-h3S"/>
+            </constraints>
+            <connections>
+                <outlet property="moreButton" destination="2mV-b2-Hem" id="Ocz-dh-xSp"/>
+                <outlet property="titleLabel" destination="2Jc-dZ-xPA" id="lpL-eO-3bT"/>
+            </connections>
+            <point key="canvasLocation" x="85.599999999999994" y="149.32533733133434"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="home_more" width="20" height="10"/>
+    </resources>
+</document>

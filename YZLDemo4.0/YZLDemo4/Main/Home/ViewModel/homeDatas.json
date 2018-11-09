@@ -1,0 +1,136 @@
+[
+    "discount": [
+                    {
+                        "title": "玩转数据结构基础应用",
+                        "picname": "",
+                        "price": "99",
+                        "originPrice": "128",
+                        "isPingtuan": "1",
+                        "pingtuanNum": "200",
+                        "lanjiaNum": "0",
+                        "endTime": "20181202"
+                    },
+                    {
+                        "title": "玩转数据结构基础应用2",
+                        "picname": "",
+                        "price": "199",
+                        "originPrice": "228",
+                        "isPingtuan": "0",
+                        "pingtuanNum": "0",
+                        "lanjiaNum": "108",
+                        "endTime": "20181202"
+                    }
+                ],
+    "hotLive":  [
+        {
+            "title": "初中英语第三课第二讲",
+            "picname": "",
+            "teacherPic": "",
+            "duration": "15:00",
+            "studentCount": "153"
+        },
+        {
+            "title": "初中英语第三课第三讲",
+            "picname": "",
+            "teacherPic": "",
+            "duration": "16:00",
+            "studentCount": "200"
+        }
+    ],
+    "choice":  [
+                    {
+                        "title": "玩转数据结构基础...",
+                        "picname": "",
+                        "price": "99",
+                        "teacherPic": "",
+                        "teacherName": "洛冰",
+                        "studentCount": "585"
+                    },
+                    {
+                        "title": "玩转数据结构基础3",
+                        "picname": "",
+                        "price": "100",
+                        "teacherPic": "",
+                        "teacherName": "夏洛",
+                        "studentCount": "520"
+                    },
+                    {
+                        "title": "玩转数据结构基础4",
+                        "picname": "",
+                        "price": "24",
+                        "teacherPic": "",
+                        "teacherName": "马冬梅",
+                        "studentCount": "666"
+                    }
+                ],
+    "hotCourse":  [
+        {
+            "title": "玩转数据结构基础4",
+            "picname": "",
+            "price": "88",
+            "teacherPic": "",
+            "teacherName": "德莱文",
+            "studentCount": "110"
+        },
+        {
+            "title": "玩转数据结构基础5",
+            "picname": "",
+            "price": "92",
+            "teacherPic": "",
+            "teacherName": "德玛西亚皇子",
+            "studentCount": "250"
+        }
+    ],
+    "chinese":  [
+        {
+            "title": "玩转数据结构6",
+            "picname": "",
+            "price": "29",
+            "studentCount": "110"
+        },
+        {
+            "title": "玩转数据结构7",
+            "picname": "",
+            "price": "97",
+            "studentCount": "250"
+        },
+        {
+            "title": "玩转数据结构61",
+            "picname": "",
+            "price": "38",
+            "studentCount": "110"
+        },
+        {
+            "title": "玩转数据结构71",
+            "picname": "",
+            "price": "91",
+            "studentCount": "250"
+        }
+    ],
+    "math":  [
+        {
+            "title": "玩转数据结构8",
+            "picname": "",
+            "price": "68",
+            "studentCount": "110"
+        },
+        {
+            "title": "玩转数据结构9",
+            "picname": "",
+            "price": "40",
+            "studentCount": "250"
+        },
+        {
+            "title": "玩转数据结构81",
+            "picname": "",
+            "price": "58",
+            "studentCount": "110"
+        },
+        {
+            "title": "玩转数据结构91",
+            "picname": "",
+            "price": "95",
+            "studentCount": "250"
+        }
+    ]
+]

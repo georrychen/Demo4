@@ -35,6 +35,20 @@
 		9541AF9F2192D76E0065298C /* YZLHorizontalCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AF9D2192D76E0065298C /* YZLHorizontalCollectionCell.swift */; };
 		9541AFA02192D76E0065298C /* YZLHorizontalCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9541AF9E2192D76E0065298C /* YZLHorizontalCollectionCell.xib */; };
 		9541AFA22192ECA40065298C /* horizontalButtonDatas.json in Resources */ = {isa = PBXBuildFile; fileRef = 9541AFA12192ECA40065298C /* horizontalButtonDatas.json */; };
+		954B8C2E2193CAE500865F81 /* YZLHomeCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B8C2C2193CAE500865F81 /* YZLHomeCollectionHeaderView.swift */; };
+		954B8C2F2193CAE500865F81 /* YZLHomeCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954B8C2D2193CAE500865F81 /* YZLHomeCollectionHeaderView.xib */; };
+		954B8C312193D69D00865F81 /* homeHeaderData.json in Resources */ = {isa = PBXBuildFile; fileRef = 954B8C302193D69D00865F81 /* homeHeaderData.json */; };
+		954B8C332193D73800865F81 /* YZLHomeCollectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B8C322193D73800865F81 /* YZLHomeCollectionHeaderViewModel.swift */; };
+		956BC27921952E850044AA00 /* YZLDiscountCourseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BC27721952E850044AA00 /* YZLDiscountCourseCollectionCell.swift */; };
+		956BC27A21952E850044AA00 /* YZLDiscountCourseCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956BC27821952E850044AA00 /* YZLDiscountCourseCollectionCell.xib */; };
+		956BC27C21955AB60044AA00 /* YZLHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BC27B21955AB60044AA00 /* YZLHomeViewModel.swift */; };
+		956BC27E21955F520044AA00 /* homeDatas.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC27D21955F520044AA00 /* homeDatas.json */; };
+		956BC2802195699B0044AA00 /* homeData_discount.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC27F2195699B0044AA00 /* homeData_discount.json */; };
+		956BC282219569BC0044AA00 /* homeData_hotlive.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC281219569BC0044AA00 /* homeData_hotlive.json */; };
+		956BC286219569F00044AA00 /* homeData_math.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC285219569F00044AA00 /* homeData_math.json */; };
+		956BC28821956A0E0044AA00 /* homeData_chinese.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC28721956A0E0044AA00 /* homeData_chinese.json */; };
+		956BC28A21956A350044AA00 /* homeData_choice.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC28921956A350044AA00 /* homeData_choice.json */; };
+		956BC28C21956D8A0044AA00 /* homeData_hotCourse.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC28B21956D8A0044AA00 /* homeData_hotCourse.json */; };
 		957353B52190217400A085C8 /* YZLCustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957353B42190217400A085C8 /* YZLCustomNavBarView.swift */; };
 		957353BD219026B300A085C8 /* NNAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 957353BC219026B300A085C8 /* NNAnimation.m */; };
 		957353BF21902F7800A085C8 /* YZLNotificationCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957353BE21902F7800A085C8 /* YZLNotificationCommon.swift */; };
@@ -110,6 +124,20 @@
 		9541AF9D2192D76E0065298C /* YZLHorizontalCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHorizontalCollectionCell.swift; sourceTree = "<group>"; };
 		9541AF9E2192D76E0065298C /* YZLHorizontalCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHorizontalCollectionCell.xib; sourceTree = "<group>"; };
 		9541AFA12192ECA40065298C /* horizontalButtonDatas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = horizontalButtonDatas.json; sourceTree = "<group>"; };
+		954B8C2C2193CAE500865F81 /* YZLHomeCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeCollectionHeaderView.swift; sourceTree = "<group>"; };
+		954B8C2D2193CAE500865F81 /* YZLHomeCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLHomeCollectionHeaderView.xib; sourceTree = "<group>"; };
+		954B8C302193D69D00865F81 /* homeHeaderData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeHeaderData.json; sourceTree = "<group>"; };
+		954B8C322193D73800865F81 /* YZLHomeCollectionHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeCollectionHeaderViewModel.swift; sourceTree = "<group>"; };
+		956BC27721952E850044AA00 /* YZLDiscountCourseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLDiscountCourseCollectionCell.swift; sourceTree = "<group>"; };
+		956BC27821952E850044AA00 /* YZLDiscountCourseCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLDiscountCourseCollectionCell.xib; sourceTree = "<group>"; };
+		956BC27B21955AB60044AA00 /* YZLHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZLHomeViewModel.swift; sourceTree = "<group>"; };
+		956BC27D21955F520044AA00 /* homeDatas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeDatas.json; sourceTree = "<group>"; };
+		956BC27F2195699B0044AA00 /* homeData_discount.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeData_discount.json; sourceTree = "<group>"; };
+		956BC281219569BC0044AA00 /* homeData_hotlive.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeData_hotlive.json; sourceTree = "<group>"; };
+		956BC285219569F00044AA00 /* homeData_math.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeData_math.json; sourceTree = "<group>"; };
+		956BC28721956A0E0044AA00 /* homeData_chinese.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeData_chinese.json; sourceTree = "<group>"; };
+		956BC28921956A350044AA00 /* homeData_choice.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeData_choice.json; sourceTree = "<group>"; };
+		956BC28B21956D8A0044AA00 /* homeData_hotCourse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = homeData_hotCourse.json; sourceTree = "<group>"; };
 		957353B42190217400A085C8 /* YZLCustomNavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZLCustomNavBarView.swift; sourceTree = "<group>"; };
 		957353B62190263500A085C8 /* YZLDemo4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZLDemo4-Bridging-Header.h"; sourceTree = "<group>"; };
 		957353BB219026B300A085C8 /* NNAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAnimation.h; sourceTree = "<group>"; };
@@ -399,6 +427,15 @@
 		95E6332E21918A590024046D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				956BC27B21955AB60044AA00 /* YZLHomeViewModel.swift */,
+				956BC27D21955F520044AA00 /* homeDatas.json */,
+				956BC27F2195699B0044AA00 /* homeData_discount.json */,
+				956BC281219569BC0044AA00 /* homeData_hotlive.json */,
+				956BC28921956A350044AA00 /* homeData_choice.json */,
+				956BC28B21956D8A0044AA00 /* homeData_hotCourse.json */,
+				956BC285219569F00044AA00 /* homeData_math.json */,
+				956BC28721956A0E0044AA00 /* homeData_chinese.json */,
+				954B8C302193D69D00865F81 /* homeHeaderData.json */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -406,12 +443,14 @@
 		95E6333D219193A50024046D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				956BC27721952E850044AA00 /* YZLDiscountCourseCollectionCell.swift */,
+				956BC27821952E850044AA00 /* YZLDiscountCourseCollectionCell.xib */,
 				95E633312191913C0024046D /* YZLHotCourseCollectionCell.swift */,
 				95E633322191913C0024046D /* YZLHotCourseCollectionCell.xib */,
-				95E633392191938F0024046D /* YZLMathCourseCollectionCell.swift */,
-				95E6333A2191938F0024046D /* YZLMathCourseCollectionCell.xib */,
 				95E6333E2191945B0024046D /* YZLHotLiveCollectionCell.swift */,
 				95E6333F2191945B0024046D /* YZLHotLiveCollectionCell.xib */,
+				95E633392191938F0024046D /* YZLMathCourseCollectionCell.swift */,
+				95E6333A2191938F0024046D /* YZLMathCourseCollectionCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -420,6 +459,9 @@
 			isa = PBXGroup;
 			children = (
 				95E6332F21918ABE0024046D /* YZLHomeCollectionView.swift */,
+				954B8C2C2193CAE500865F81 /* YZLHomeCollectionHeaderView.swift */,
+				954B8C2D2193CAE500865F81 /* YZLHomeCollectionHeaderView.xib */,
+				954B8C322193D73800865F81 /* YZLHomeCollectionHeaderViewModel.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -583,15 +625,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956BC286219569F00044AA00 /* homeData_math.json in Resources */,
+				956BC28C21956D8A0044AA00 /* homeData_hotCourse.json in Resources */,
 				954132C22190161300C65496 /* tabbarInfo.json in Resources */,
 				9541AF932192C7700065298C /* YZLHomeTopNoticeView.xib in Resources */,
+				956BC2802195699B0044AA00 /* homeData_discount.json in Resources */,
 				9541AF8D219283890065298C /* YZLSearchView.xib in Resources */,
+				956BC28821956A0E0044AA00 /* homeData_chinese.json in Resources */,
+				954B8C312193D69D00865F81 /* homeHeaderData.json in Resources */,
 				9541AFA22192ECA40065298C /* horizontalButtonDatas.json in Resources */,
+				956BC28A21956A350044AA00 /* homeData_choice.json in Resources */,
+				954B8C2F2193CAE500865F81 /* YZLHomeCollectionHeaderView.xib in Resources */,
+				956BC27A21952E850044AA00 /* YZLDiscountCourseCollectionCell.xib in Resources */,
 				95E633342191913C0024046D /* YZLHotCourseCollectionCell.xib in Resources */,
 				95E6333C2191938F0024046D /* YZLMathCourseCollectionCell.xib in Resources */,
+				956BC282219569BC0044AA00 /* homeData_hotlive.json in Resources */,
 				95E6334A2191A1E50024046D /* YZLHomeHeadSearchView.xib in Resources */,
 				95E633412191945B0024046D /* YZLHotLiveCollectionCell.xib in Resources */,
 				9541AFA02192D76E0065298C /* YZLHorizontalCollectionCell.xib in Resources */,
+				956BC27E21955F520044AA00 /* homeDatas.json in Resources */,
 				95413276218FE3DB00C65496 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,15 +747,19 @@
 				954132B1218FEE4900C65496 /* YZLHomeViewController.swift in Sources */,
 				957353BF21902F7800A085C8 /* YZLNotificationCommon.swift in Sources */,
 				9541AF912192C4B00065298C /* YZLHomeTopNoticeView.swift in Sources */,
+				954B8C332193D73800865F81 /* YZLHomeCollectionHeaderViewModel.swift in Sources */,
 				954132BB218FEF2300C65496 /* YZLWelcomeController.swift in Sources */,
+				956BC27C21955AB60044AA00 /* YZLHomeViewModel.swift in Sources */,
 				9541AF9A2192D5250065298C /* YZLHorizontalButtonsView.swift in Sources */,
 				9541AF9C2192D5AA0065298C /* YZLHorizontalButtonViewModel.swift in Sources */,
 				954132AD218FEDC800C65496 /* YZLMainViewController.swift in Sources */,
 				954132C0219011FD00C65496 /* Bundle+Extension.swift in Sources */,
 				95E6333021918ABE0024046D /* YZLHomeCollectionView.swift in Sources */,
+				956BC27921952E850044AA00 /* YZLDiscountCourseCollectionCell.swift in Sources */,
 				957353BD219026B300A085C8 /* NNAnimation.m in Sources */,
 				9541AF8F2192B8DA0065298C /* YZLHomeTopScrollView.swift in Sources */,
 				957353B52190217400A085C8 /* YZLCustomNavBarView.swift in Sources */,
+				954B8C2E2193CAE500865F81 /* YZLHomeCollectionHeaderView.swift in Sources */,
 				95E633402191945B0024046D /* YZLHotLiveCollectionCell.swift in Sources */,
 				954132B5218FEE6F00C65496 /* YZLProfileViewController.swift in Sources */,
 				95E6333B2191938F0024046D /* YZLMathCourseCollectionCell.swift in Sources */,
